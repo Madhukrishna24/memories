@@ -1,0 +1,23 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    
+} 
+.mian-content {
+    text-align: center;
+    margin: 40px;
+}
+.mian-content h1 {
+    margin: 20px;
+}
+
+.link a {
+    margin: 30px;
+    padding: 5px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: rgb(24, 132, 240);
+    color: #fff;
+
+}

@@ -1,0 +1,52 @@
+.dash-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.dash-main .left-container {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.dash-main .form-container {
+    position: fixed;
+    top: 100px;
+    right: 40px;
+    max-width: 350px;
+    min-width: 300px;
+    max-height: 450px;
+    min-height: 400px;
+    background-color: rgba(255, 255, 255, 0.308);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.384);
+    border-radius: 20px;
+}
+.dash-main .form-container form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-main .form-container form input,
+.dash-main .form-container form textarea {
+    width: 90%;
+    margin: 10px;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.dash-main .form-container form button {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
